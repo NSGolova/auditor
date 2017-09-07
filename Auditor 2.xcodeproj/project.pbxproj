@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDEA30301F6167DD0092E0C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA302F1F6167DD0092E0C3 /* AppDelegate.m */; };
+		BDEA30331F6167DD0092E0C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA30321F6167DD0092E0C3 /* ViewController.m */; };
+		BDEA30351F6167DD0092E0C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEA30341F6167DD0092E0C3 /* Assets.xcassets */; };
+		BDEA30381F6167DD0092E0C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEA30361F6167DD0092E0C3 /* Main.storyboard */; };
+		BDEA303B1F6167DD0092E0C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA303A1F6167DD0092E0C3 /* main.m */; };
+		BDEA30441F6182CD0092E0C3 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA30431F6182CD0092E0C3 /* Record.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDEA302B1F6167DD0092E0C3 /* Auditor 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auditor 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEA302E1F6167DD0092E0C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDEA302F1F6167DD0092E0C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDEA30311F6167DD0092E0C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDEA30321F6167DD0092E0C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDEA30341F6167DD0092E0C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDEA30371F6167DD0092E0C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDEA30391F6167DD0092E0C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEA303A1F6167DD0092E0C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDEA30421F6182CD0092E0C3 /* Record.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		BDEA30431F6182CD0092E0C3 /* Record.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDEA30281F6167DD0092E0C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDEA30221F6167DD0092E0C3 = {
+			isa = PBXGroup;
+			children = (
+				BDEA302D1F6167DD0092E0C3 /* Auditor 2 */,
+				BDEA302C1F6167DD0092E0C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDEA302C1F6167DD0092E0C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDEA302B1F6167DD0092E0C3 /* Auditor 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDEA302D1F6167DD0092E0C3 /* Auditor 2 */ = {
+			isa = PBXGroup;
+			children = (
+				BDEA302E1F6167DD0092E0C3 /* AppDelegate.h */,
+				BDEA302F1F6167DD0092E0C3 /* AppDelegate.m */,
+				BDEA30311F6167DD0092E0C3 /* ViewController.h */,
+				BDEA30321F6167DD0092E0C3 /* ViewController.m */,
+				BDEA30341F6167DD0092E0C3 /* Assets.xcassets */,
+				BDEA30361F6167DD0092E0C3 /* Main.storyboard */,
+				BDEA30391F6167DD0092E0C3 /* Info.plist */,
+				BDEA303A1F6167DD0092E0C3 /* main.m */,
+				BDEA30421F6182CD0092E0C3 /* Record.h */,
+				BDEA30431F6182CD0092E0C3 /* Record.m */,
+			);
+			path = "Auditor 2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDEA302A1F6167DD0092E0C3 /* Auditor 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEA303F1F6167DD0092E0C3 /* Build configuration list for PBXNativeTarget "Auditor 2" */;
+			buildPhases = (
+				BDEA30271F6167DD0092E0C3 /* Sources */,
+				BDEA30281F6167DD0092E0C3 /* Frameworks */,
+				BDEA30291F6167DD0092E0C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Auditor 2";
+			productName = "Auditor 2";
+			productReference = BDEA302B1F6167DD0092E0C3 /* Auditor 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDEA30231F6167DD0092E0C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "KROMTECH ALLIANCE CORP.";
+				TargetAttributes = {
+					BDEA302A1F6167DD0092E0C3 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = BDEA30261F6167DD0092E0C3 /* Build configuration list for PBXProject "Auditor 2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDEA30221F6167DD0092E0C3;
+			productRefGroup = BDEA302C1F6167DD0092E0C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDEA302A1F6167DD0092E0C3 /* Auditor 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDEA30291F6167DD0092E0C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEA30351F6167DD0092E0C3 /* Assets.xcassets in Resources */,
+				BDEA30381F6167DD0092E0C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDEA30271F6167DD0092E0C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEA30331F6167DD0092E0C3 /* ViewController.m in Sources */,
+				BDEA303B1F6167DD0092E0C3 /* main.m in Sources */,
+				BDEA30441F6182CD0092E0C3 /* Record.m in Sources */,
+				BDEA30301F6167DD0092E0C3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDEA30361F6167DD0092E0C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDEA30371F6167DD0092E0C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDEA303D1F6167DD0092E0C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDEA303E1F6167DD0092E0C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDEA30401F6167DD0092E0C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V2ADZBMLSN;
+				INFOPLIST_FILE = "Auditor 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kromtech.Auditor-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDEA30411F6167DD0092E0C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V2ADZBMLSN;
+				INFOPLIST_FILE = "Auditor 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kromtech.Auditor-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDEA30261F6167DD0092E0C3 /* Build configuration list for PBXProject "Auditor 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEA303D1F6167DD0092E0C3 /* Debug */,
+				BDEA303E1F6167DD0092E0C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEA303F1F6167DD0092E0C3 /* Build configuration list for PBXNativeTarget "Auditor 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEA30401F6167DD0092E0C3 /* Debug */,
+				BDEA30411F6167DD0092E0C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDEA30231F6167DD0092E0C3 /* Project object */;
+}
